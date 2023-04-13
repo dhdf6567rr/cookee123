@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 # 设置各变量
-UUID='9f73254f-8f29-4ae8-b307-5e56a0d0020d'
-VMESS_WSPATH='/vmess'
-VLESS_WSPATH='/vless'
-TROJAN_WSPATH='/trojan'
+UUID='0d12bd9f-a629-4fef-be21-c76c504cf080'
+VMESS_WSPATH='/gitthffdvmess'
+VLESS_WSPATH='/gitthffdvless'
+TROJAN_WSPATH='/gitthffdtrojan'
 SS_WSPATH='/shadowsocks'
 NEZHA_SERVER="probe.nezha.org"
 NEZHA_PORT=5555
@@ -94,7 +94,7 @@ generate_config() {
                 }
             },
             "sniffing": {
-                "enabled": true,
+                "enabled": false,
                 "destOverride": [
                     "http",
                     "tls"
@@ -121,7 +121,7 @@ generate_config() {
                 }
             },
             "sniffing": {
-                "enabled": true,
+                "enabled": false,
                 "destOverride": [
                     "http",
                     "tls"
@@ -148,7 +148,7 @@ generate_config() {
                 }
             },
             "sniffing": {
-                "enabled": true,
+                "enabled": false,
                 "destOverride": [
                     "http",
                     "tls"
@@ -176,7 +176,7 @@ generate_config() {
                 }
             },
             "sniffing": {
-                "enabled": true,
+                "enabled": false,
                 "destOverride": [
                     "http",
                     "tls"
